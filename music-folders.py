@@ -7,7 +7,7 @@ create new directory with artist folder as parent directory for respective album
 construct a dictionary of {key} artists and {val} albums, then iterate through that dictionary with os.mkdir()"""
 
 #files_to_list = os.listdir('.')
-files_to_list = [os.listdir('.')]
+folders_to_list = [os.listdir('.')]
 
 print(folders_to_list)
 
@@ -21,8 +21,8 @@ album.search link:https://ws.audioscrobbler.com/2.0/?method=album.search&album=_
 
 #artists = ['/n'.join[os.listdir('.')]]
 
-#def album_match():
-#    for artist in artists:
+"""def album_match():
+    for artist in artists:"""
 
 
 
